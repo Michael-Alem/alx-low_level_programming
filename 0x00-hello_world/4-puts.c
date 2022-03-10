@@ -2,7 +2,7 @@
 /**
  * main - entry point
  * Description - prints given phrase
- * retrun: 0 after printing the function
+ * return: 0 after printing the function
  */
 int main(void)
 {
