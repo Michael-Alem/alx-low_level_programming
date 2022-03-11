@@ -1,4 +1,4 @@
-#include <sidio.h>
+#include <stdio.h>
 /**
  * main - entry point
  * Description - prints size of various type
