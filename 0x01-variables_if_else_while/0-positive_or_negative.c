@@ -2,6 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
+/**
+ * main - main function
+ * Description - prints the task phrase according to the condition
+ * Return: return void
+ */
 
 /* betty style doc for function main goes there */
 int main(void)
