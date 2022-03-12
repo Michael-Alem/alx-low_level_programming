@@ -1,14 +1,15 @@
 #include <stdio.h>
 /**
- * main -Main function
- * Description - Lower Case alphabet letters
- * Return: Void
+ * main - main function
+ * Description - prints the task phrase
+ * Return: Return void
  */
 int main(void)
 {
-char c;
-for (c = 'a'; c <= 'z'; ++c)
-	putchar(c);
-putchar('\n');
-return (0);
+	char c;
+
+	for (c = 'a' ; c <= 'z' ; ++c)
+		putchar (c);
+	putchar ('\n');
+	return (0);
 }
