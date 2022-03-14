@@ -5,9 +5,10 @@
  * return: always 0 (success)
  */
 int main(void)
+{
 	int number;
 
-for (number = 48;number <= 57;number ++)
+for (number = 48; number <= 57; number ++)
 {
 	putchar(number);
 
