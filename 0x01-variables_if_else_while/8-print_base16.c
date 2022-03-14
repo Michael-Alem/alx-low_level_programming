@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
- * mian - entry point
+ * main - entry point
  * Description - a program that prints all the numbers of base 16 in lowercase, followed by a new line
  * Return: Always 0 (success)
  */
 int main(void)
 {
 	char base_16;
+	
 	for (base_16 = 48; base_16 <= 57; base_16++)
 	{
 		putchar(base_16);
