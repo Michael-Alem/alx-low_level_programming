@@ -13,7 +13,7 @@ void print(char *s)
 }
     int main()
 {
-    char s[] = "_putchar";
+    char s[] = "_putchar\n";
     print(s);
     return (0);
 }
