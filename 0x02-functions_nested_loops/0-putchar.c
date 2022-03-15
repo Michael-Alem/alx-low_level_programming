@@ -7,13 +7,10 @@
  * Description - prints number of string
  * Return: always 0(success)
  */
-void print_put(char *s)
+int main(void)
 {
-	int i = 0;
+	char s[] = "_putchar\n";
 
-	while (s[i] != '\0')
-	{
-		putchar(s[i]);
-		i++;
-	}
+	print(s);
+	return (0);
 }
