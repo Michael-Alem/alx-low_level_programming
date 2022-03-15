@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
  * main - entry point
- * description - program that prints all possible combinations of single-digit numbers.
- * return: always 0 (success)
+ * description - prints all possible combinations of single-digit numbers.
+ * Return: always 0 (success)
  */
 int main(void)
 {
 	int number;
 
-for (number = 48; number <= 57; number ++)
+for (number = 48; number <= 57; number++)
 {
 	putchar(number);
 
@@ -19,6 +19,6 @@ for (number = 48; number <= 57; number ++)
 	putchar (',');
 	putchar (' ');
 }
-putchar ('n');
+putchar ('\n');
 return (0);
 }
