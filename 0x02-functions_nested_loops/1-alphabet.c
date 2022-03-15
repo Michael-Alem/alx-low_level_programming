@@ -5,8 +5,6 @@
  * Description: prints lowercase
  * Return: void
  */
-/*
- * Description: prints lowercase alphabet*/
 void print_alphabet(void)
 {
 	char i;
