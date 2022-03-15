@@ -4,14 +4,16 @@
 
 void print(char *s)
 {
-    int i = 0;
-    while (s[i] != '\0' )
+int i = 0;
+    
+    while (s[i] != '\0')     
     {
-        putchar(s[i]);
-        i++;
+    putchar(s[i]);
+    i++;
     }
 }
     int main()
+
 {
     char s[] = "_putchar\n";
     print(s);
