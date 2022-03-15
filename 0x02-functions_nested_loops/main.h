@@ -5,9 +5,12 @@
  * Return - always 0 (success)
  */
 
-    int main(void)
+void print(char *s)
 {
-    char s[] = "_putchar";
-    print_put(s);
-    return (0);
+    int i=0;
+    while (s[i] != '\0' )
+    {
+        putchar(s[i]);
+        i++;
+    }
 }
