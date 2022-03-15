@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <main.h>
+#include <main.c>
 /** main - main function
  * description - prints lowercase alphabet
  * return: always 0(success)
