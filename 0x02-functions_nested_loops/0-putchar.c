@@ -20,7 +20,7 @@ void print(char *s)
 int main(void)
 {
 	char s[] = "_putchar\n";
-	
+
 	print(s);
 	return (0);
 }
