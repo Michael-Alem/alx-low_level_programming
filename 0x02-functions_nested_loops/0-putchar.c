@@ -5,7 +5,7 @@
 void printing(char *s);
 int main()
 {
-	char s[] = "_putchar";
+	char c[] = "_putchar";
 	return(0);
 }
 void printing(char*s);
