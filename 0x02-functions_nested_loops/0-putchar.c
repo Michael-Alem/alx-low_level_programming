@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - main function
- * print - prints putchar
+ * print - prints "_putchar"
  * Description - prints number of string
  * Return: always 0(success)
  */
