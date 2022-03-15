@@ -17,10 +17,3 @@ void print(char *s)
 		i++;
 	}
 }
-int main(void)
-{
-	char s[] = "_putchar\n";
-
-	print(s);
-	return (0);
-}
