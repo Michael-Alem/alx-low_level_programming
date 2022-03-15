@@ -2,18 +2,18 @@
 #include <string.h>
 #include <stdio.h>
 
-void printing(char *s);
-int main()
+void print(char *s)
 {
-	char c[] = "_putchar";
-	return(0);
+    int i=0;
+    while (s[i] != '\0' )
+    {
+        putchar(s[i]);
+        i++;
+    }
 }
-void printing(char*s);
+    int main()
 {
-	int i=0;
-	while (s[i] != '\n' && s[i] != '\0')
-	{
-		putchar(s[i]);
-		i++;
-	}
+    char s[] = "_putchar";
+    print(s);
+    return (0);
 }
