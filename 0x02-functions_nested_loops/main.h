@@ -1,11 +1,14 @@
 #include <stdio.h>
+/**
+ * main - main function
+ * Descripiton - prints putchar
+ * Return - always 0 (success)
+ */
 
-
-void print(char *s)
+int main(void)
 {
-    int i=0;
-    while (s[i] != '\0' )
-    {
-        putchar(s[i]);
-        i++;
-    }
+    char s[] = "_putchar\n";
+    
+    print(s);
+    return (0);
+}
