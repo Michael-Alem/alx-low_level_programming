@@ -7,7 +7,7 @@
  * Description - prints number of string
  * Return: always 0(success)
  */
-void print(char s)
+void print(char *s)
 {
 	int i = 0;
 
