@@ -5,10 +5,9 @@
  * Return - always 0 (success)
  */
 
-int main(void)
+    int main()
 {
-	char s[] = "_putchar\n";
-
-	print(s);
-	return (0);
+    char s[] = "_putchar";
+    print(s);
+    return (0);
 }
