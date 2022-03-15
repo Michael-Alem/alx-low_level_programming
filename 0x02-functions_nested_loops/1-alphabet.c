@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
-/** main - main function
- * description - prints lowercase alphabet
- * return: always 0(success)
+/** print_alphabet - main function
+ * Description - prints lowercase alphabet
+ * Return: always 0(success)
  */
-/* Decription: prints lowercase*/void print_alphabet(void)
+/void print_alphabet(void)
 {
   char i;
 
@@ -12,5 +12,5 @@
   {
     putchar(i);
   }
-  putchar('\n')
-  }
+  putchar('\n');
+}
