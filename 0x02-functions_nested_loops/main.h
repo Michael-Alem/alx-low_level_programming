@@ -5,18 +5,10 @@
  * Return - always 0 (success)
  */
 
-void print(char *s)
+int main(void)
 {
-    int i=0;
-    while (s[i] != '\0' )
-    {
-        putchar(s[i]);
-        i++;
-    }
-}
-    int main()
-{
-    char s[] = "_putchar";
-    print(s);
-    return (0);
+	char s[] = "_putchar\n";
+
+	print(s);
+	return (0);
 }
