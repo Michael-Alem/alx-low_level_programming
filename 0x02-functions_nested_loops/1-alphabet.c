@@ -5,7 +5,14 @@
  * description - prints lowercase alphabet
  * return: always 0(success)
  */
-int main()
+void print_alphabet(void)
+{
+  char i;
+
+  for ( i = 'a'; i <= 'z'; i++)
+    putchar(i);
+}
+int main(void)
 {
   print_alphabet();
   putchar ('\n');
