@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include "main.c"
+#include <stdio.h.>
 /**
  * main - main function
  * Descripiton - prints putchar
