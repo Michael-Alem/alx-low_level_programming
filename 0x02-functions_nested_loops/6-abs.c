@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - Short description, single line
+ * _abs - Short description, single line
  * @n: contains value to be compared
  * Return: Always 0.
  */
