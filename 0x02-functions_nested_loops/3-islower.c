@@ -1,20 +1,22 @@
-# include "main.h"
+#include "main.h"
+
 /**
- * _islower - checks lowercase
- *
- * return: 0
+ * _islower - Short description, single line
+ * @c: contains value to be compared
+ * Return: Always 0.
  */
-int _islower(int c);
+int _islower(int c)
 
 {
-	
-	if (c >  'a' ; && c < 'z')
-	{
-	return (1);
-	}
-	else 
-	{
-	return (0);
-	}
-	
-}	
+
+if (c > 'a' && c < 'z')
+{
+return (1);
+}
+
+else
+{
+return (0);
+}
+
+}
