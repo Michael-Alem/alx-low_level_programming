@@ -5,10 +5,11 @@
  * @n: contains value to be compared
  * Return: Always 0.
  */
+
 int print_last_digit(int n)
 
 {
-int lastDigit
+int lastDigit;
 
 if (n < 0)
 {
