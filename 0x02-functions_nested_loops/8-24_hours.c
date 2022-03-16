@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * jack_bauer - Short description, single line
- * @n: contains value to be compared
+ * jack_bauer - prints every minute
+ *
  * Return: Always 0.
  */
 
@@ -25,6 +25,7 @@ _putchar ('\n');
 
 }
 
+  
 }
 
 }
