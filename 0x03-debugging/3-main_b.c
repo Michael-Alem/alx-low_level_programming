@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * main - takes a date and prints how many days left in the year , taking
+ * main - takes a date and prints how many days left in the year, taking
  * leap years into account
- * retunr: 0
+ * return: 0
  */
 
 int main(void)
