@@ -4,8 +4,9 @@
  * @n: print int
  * return: always 0
  */
-void print_diagonal (int n)
+void print_diagonal(int n)
 {
+
 int i;
 int b;
 
@@ -17,7 +18,7 @@ for (b = 0; b < i; b++)
 {
 _putchar (' ');
 }
-_putcahr (92);
+_putchar (92);
 _putchar ('\n');
 
 }
