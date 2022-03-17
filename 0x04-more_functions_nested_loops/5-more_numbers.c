@@ -1,4 +1,3 @@
-
 #include "main.h"
 /**
  * more_numbers - prints 10 times the numbers
@@ -30,7 +29,7 @@ second_number = result % 10;
 _putchar (first_number + '0');
 }
 
-_putchar (second_ni=umber + '0');
+_putchar (second_number + '0');
 
 result++;
 }
