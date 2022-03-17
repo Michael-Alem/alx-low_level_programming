@@ -1,12 +1,13 @@
 #include "main.h"
 /**
- * mul - mulitiply two integer
- * @a: print int
- * @b: print int
- * Return : always 0
+ * mul - -mulitply
+ *@a: print int
+ *@b: print int
+ * Return: always 0
  */
-int mul(int a, int b)
 
+int mul(int a, intb)
 {
-	return(a*b);
+return (a * b);
 }
+
