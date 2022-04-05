@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-Ox09 Static Libraries task
-=======
-README
->>>>>>> 2cea2471a4e2e4b92921d2b38fb7479640eaa1e3
+0x09. C - Static libraries
+
+* What is a static library, how does it work, how to create one, and how to use it
+* Basic usage of ar, ranlib, nm
